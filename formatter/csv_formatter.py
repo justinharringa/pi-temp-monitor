@@ -5,4 +5,5 @@ class CsvFormatter:
         self.temperature = temperature
 
     def format(self):
-        return '%s,%s,%.3f' % (self.iso_formatted_date, self.sensor_id, self.temperature)
+        return '%s,%s,%.3f' % \
+               (self.iso_formatted_date, self.sensor_id, self.temperature)
