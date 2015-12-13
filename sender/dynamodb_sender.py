@@ -11,6 +11,6 @@ class DynamoDbSender:
 
     def send(self, temperature_reading: TemperatureReading):
         try:
-            self.table.put_item(temperature_reading.get_dict())
+            self.table.put_item(Item=temperature_reading.get_dict())
         except botocore.exceptions.ClientError as e:
             print("Unexpected error: %s" % e)
