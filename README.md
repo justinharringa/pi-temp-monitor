@@ -7,4 +7,9 @@ Temperature monitor that runs on a [Raspberry Pi](http://amzn.to/1HToEf5) using 
 Prints temperature and sends the data to DynamoDB.
 
 ## Dependencies
- - [w1thermsensor module](https://github.com/timofurrer/w1thermsensor)
+To install dependencies, use pip:
+
+```pip install -r requirements.txt```
+
+## Thanks!
+Thanks to Timo Furrer for the [w1thermsensor module](https://github.com/timofurrer/w1thermsensor) that he put together!
