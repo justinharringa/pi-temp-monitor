@@ -1,4 +1,4 @@
-[![Build Status](https://snap-ci.com/justinharringa/pi-temp-monitor/branch/master/build_image)](https://snap-ci.com/justinharringa/pi-temp-monitor/branch/master) 
+[![Build Status](https://travis-ci.org/justinharringa/pi-temp-monitor.svg?branch=master)](https://travis-ci.org/justinharringa/pi-temp-monitor)
 [![Code Climate](https://codeclimate.com/github/justinharringa/pi-temp-monitor/badges/gpa.svg)](https://codeclimate.com/github/justinharringa/pi-temp-monitor)
 
 # pi-temp-monitor
